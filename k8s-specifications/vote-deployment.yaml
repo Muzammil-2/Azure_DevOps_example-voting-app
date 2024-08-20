@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image:  010526286841.dkr.ecr.ap-south-1.amazonaws.com/voteservice:${BUILD_NUMBER}
+      - image:  010526286841.dkr.ecr.ap-south-1.amazonaws.com/voteservice:latest
         name: vote
         ports:
         - containerPort: 80
